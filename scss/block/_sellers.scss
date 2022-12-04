@@ -1,0 +1,132 @@
+.sellers{
+    padding-bottom: 60px;
+
+}
+.sellers__top-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.sellers__title{
+    color: #000000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 31px;
+}
+.sellers__title-span{
+    color: #003459;
+    font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+}
+.sellers__link{
+    color: #003459;
+    font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+}
+.sellers__btn-block{
+    border: 1.5px solid #003459;
+border-radius: 57px;
+padding: 12px 28px;
+max-width: 201px;
+}
+.selers__list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.sellers__item{
+    max-width: 151px;
+}
+.sellers__bottom-block{
+    padding: 74px 0 56px 72px;
+    background-image: url(../img/sellers/sellers-bg.jpg);
+    border-radius:15px;
+    background-repeat: no-repeat;
+}
+.sellers__bottom-title{
+    font-weight: 800;
+font-size: 52px;
+line-height: 68px;
+text-transform: capitalize;
+color: #003459;
+}
+.sellers__bottom-title-block{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.sellers__img-block{
+    width: 42px;
+}
+.sellers__sub-title{
+    font-weight: 700;
+font-size: 36px;
+line-height: 54px;
+text-transform: capitalize;
+color: #003459;
+}
+.sellers__text{
+    max-width: 236px;
+    font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+color: #242B33;
+margin-bottom: 42px;
+}
+.sellers__btn-blocks{
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    flex-direction: row-reverse;
+}
+.sellers__video-btn{
+    border: 1.5px solid #003459;
+border-radius: 57px;
+padding: 14px 0;
+padding-left: 28px;
+padding-right: 10px;
+max-width: 161px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+}
+.sellers__video-btn::after{
+    content: "";
+    display: inline-block;
+    background-image: url(../img/hero/play.svg);
+    background-repeat:no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.sellers__video-link{
+    color: #003459;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.sellers__btn{
+    background: #003459;
+border-radius: 57px;
+max-width: 167px;
+padding: 12px 35px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sellers__btn-link{
+    color: #FDFDFD;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:1130px) {
+    .sellers{
+        display: none;
+    }
+}

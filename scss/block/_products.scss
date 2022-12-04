@@ -1,0 +1,23 @@
+
+.products{
+    padding: 60px 0;
+}
+.products__skidka{
+    padding: 6px 10px 4px;
+    background: #FCEED5;
+border-radius: 8px;
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top: 10px;
+}
+.skidka__img-blokc{
+    width: 20px;
+    height: 20px;
+}
+.product__skidka-des{
+    color: #002A48;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}

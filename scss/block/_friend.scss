@@ -1,0 +1,133 @@
+.friend{
+    background-image: url(../img/friend/bg.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-radius:12px;
+    padding: 36px 90px 0 8px;
+}
+.friend__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.friend__img-block{
+    max-width: 513px;
+}
+.friend__content{
+    text-align: end;
+}
+    .friend__title{
+        max-width: 403px;
+        font-weight: 800;
+        font-size: 48px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #002A48;
+    }
+    .friend__title-span{
+        display: inline-block;
+        max-width: 354px;
+        font-weight: 700;
+        font-size: 32px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: #002A48;
+    margin-bottom: 8px;
+    }
+    .friend__text{
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    color: #242B33;
+    max-width: 394px;
+    margin-bottom: 24px;
+    }
+    .friend__btn-blocks{
+        display: flex;
+        justify-content: space-between;
+        max-width: 350px;
+        margin-left: auto;
+    }
+    .friend__video-btn{
+        border: 1.5px solid #003459;
+    border-radius: 57px;
+    padding: 14px 0;
+    padding-left: 28px;
+    padding-right: 10px;
+    max-width: 161px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    }
+    .friend__video-btn::after{
+        content: "";
+        display: inline-block;
+        background-image: url(../img/hero/play.svg);
+        background-repeat:no-repeat;
+        width: 24px;
+        height: 24px;
+    }
+    .friend__video-link{
+        color: #003459;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .friend__btn{
+        background: #003459;
+    border-radius: 57px;
+    max-width: 167px;
+    padding: 12px 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .friend__btn-link{
+        color: #FDFDFD;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    @media screen and (max-width:1248px) {
+        .friend{
+            background-position-x:right;
+            align-items: start;
+        }
+    }
+
+    @media screen and (max-width:1100px) {
+        .friend{
+            background-image: url(../img/friend/friend-tablet-bg.png);
+            background-position:center;
+            padding: 0;
+            padding-top: 35px;
+            border-radius: 15px;
+        }
+        .friend__block{
+            flex-direction: column-reverse;
+            gap: 10px;
+        }
+        .friend__title{
+            font-size: 36px;
+            line-height: 54px;
+        }
+        .friend__title-span{
+            font-size: 24px;
+line-height: 36px;
+margin-bottom: 12px;
+        }
+        .friend__text{
+            font-size: 12px;
+line-height: 18px;
+margin-bottom: 32px;
+        }
+        .friend__content{
+            text-align: center;
+        }
+        .friend__btn-blocks{
+            margin-bottom: 23px;
+        }
+    }
