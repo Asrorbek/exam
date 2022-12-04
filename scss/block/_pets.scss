@@ -105,8 +105,17 @@ line-height: 20px;
         font-size: 20px;
     line-height: 32px;
     }
+    .pets__list{
+        margin-bottom: 16px;
+    }
     .pets__btn{
         display: none;
+    }
+    .petsvv{
+        display: block;
+        max-width: 382px;
+        text-align: center;
+        margin: 0 auto;
     }
     .pets__list{
         display: flex;
